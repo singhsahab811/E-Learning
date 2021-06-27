@@ -1,0 +1,83 @@
+#welcome{
+    font-weight: bold;
+}
+
+h4{
+    color: black;
+}
+#stcourse{
+    
+    width:65%;
+    height: 85%;
+}
+#course{
+    border:2px solid black;
+    width:75%;
+    height: 75%;
+}
+input{
+    font-size: 17px;
+    border-color: #d5d6ff;
+    background-color: #d5d6ff;
+}
+#courseass{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.quizna,.quizass{
+    color:red;
+}
+#course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:60%;
+    height: 80%;
+}
+.userdata{
+    display: flex;
+    margin-top: 8.3% ;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+/* data*/
+tr,th{
+    text-align: center;
+    
+}
+#stcourse th{
+    width:500px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#course th{
+    width:500px;
+    height: 50px;
+    border: 0px solid rgb(0, 0, 0);
+}
+table{
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-family : sans-serif;
+    font-size: .8rem;
+}
+.name,.code,.quiz{
+    font-weight: bold;
+    font-size: 15px;
+}
+.quiz:hover,#courseass:hover,.quizass:hover{
+    background-color: black;
+    color: white;
+}
+.name:hover{
+    font-weight: bolder;
+    text-decoration:underline;
+    color: rgb(64, 0, 94);
+}
+.name:hover{
+    font-size:15px;
+}
